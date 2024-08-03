@@ -1,0 +1,60 @@
+HTML
+-----------------------
+intro,structure
+headings,p,a,img
+lists
+formatting tags
+elements(block vs inline)
+Tables
+semantic elements
+forms(different form types,validation)
+media
+micell
+
+Projects
+------------------------
+www
+profile-page
+time table
+resume
+licence registaion form/school registaionform
+
+
+
+
+
+
+
+
+
+
+
+internet fundamentals
+   -- what is internet? How it works?
+   -- terminology in internet
+   -- client-server modal
+Website Development Process
+   -- Requirements, Design,frontend,backend,databases,testing,deployement,maintainence
+UI/UX Design -- figma
+Hashnode,dev.to,medium
+Google Developer Tools,VSCode
+
+--- minimal.gallery
+--- https://www.darkmodedesign.com/
+--- https://www.awwwards.com/
+--- https://refero.design/
+--- https://stacksorted.com/
+
+
+
+media:      <kbd>ctrl+c</kbd>
+<p 
+
+
+
+codepen data attribute:    counter
+carcle mdn:
+
+map,
+
+hw:

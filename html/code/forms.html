@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>FaceBook</h1>
+    <h2>login</h2>
+    
+    <form action="facebook" method="post"> 
+        <label for="input1">Enter Name:</label>  
+
+         <input type="text" name="un"
+         id="input1" placeholder="Name in letter" value="" ><br><br>
+         <lable for="email">Enter email*: </lable>
+         
+         <input type="email" name="em"
+          id="input1"  placeholder="abc@gmail.com" required><br><br>
+          <lable for="password">Enter password: </lable>
+         <input type="password" name="pws" minlength="8" id="input1" placeholder="Password"><br><br>
+         <lable for="number">Enter number: </lable>
+         <input type="number" name="" 
+         id="input1" placeholder="any number"><br><br>
+         <label for="color">Choose any color:</label>
+         <input type="color" name=" id=""><br><br>
+         <input type="image" name="" id=""><br><br>
+         <label for="date">Enter date:</label>
+         <input type="date" name="" id=""><br><br>
+         <label for="datetime-local">Enter date-local:</label>
+         <input type="datetime-local" name="" id=""><br><br>
+         <label for="file">Enter file:</label>
+         <input type="file" name="" id=""><br><br>
+         <label for="month">Enter Month:</label>
+         <input type="month" name="" id=""><br><br>
+         <label for="range">Range:</label>
+         <input type="range" name="" id=""><br><br>
+         <label for="hidden"></label>
+         <input type="hidden" name="gender" value="female"><br>
+         <legend>Choose your gender:</legend>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+      </fieldset><br><br>
+
+         <label for="serarch">Sararch:</label>
+         <input type="serarch" name="" id="" ><br><br> 
+         <label for="teliphone number">Enter phone number:</label>
+         <input type="tel" name="" id="input1" placeholder="phone number"><br><br>
+         <label for="time">Enter Time:</label>
+         <input type="time" name="" id="input1" placeholder="time"><br><br>
+         <label for="url">Enter url:</label>
+         <input type="url"><br><br>
+         <label for="Week">Enter Week:</label>
+         <input type="week"><br><br>
+         <input type="radio"name="gender"  value="male" id="male" checked>
+         <label for="male" >male</label>
+         <input type="radio"name="gender" value="female "id="female">
+         <label for="female" >female</label><br><br>
+         <input type="checkbox"name="lang" id="odia">
+         <label for="odia" >odia</label> 
+         <input type="checkbox"name="lang" id="english">
+         <label for="english" >english</label>  
+         <input type="checkbox"name="lang" id="telugu">
+         <label for="telegu" >telugu</label> 
+         <input type="checkbox"name="lang" id="hindi">
+         <label for="hindi" >hindi</label><br><br>
+
+
+         <select name="car" id="car" multiple size="4">
+            <option value="">please selct any one value</option>
+            <option value="a">bmw</option>
+            <option value="b">nexa</option> 
+            <option value="c">audi</option>
+            <option value="d">telsa</option><br><br>
+
+            <select name="subjects" id="subject">
+                <optgroup label="cse">                
+                    <option value="dbms">dbms</option>
+                    <option value="dsa">dsa</option>
+                    <option value="os">os</option>
+                    <option value="csa">csa</option>
+                </optgroup>
+               
+                <option value="acm"></option>
+                <option value="vlsi"></option>
+                <option value="bee"></option>
+                <option value="dsp"></option>
+            </select> <br><br>
+            
+            <textarea name="" id="" rows="10" cols="10"
+            style=""
+             <button >submit</button>
+    </form>
+</body>
+</html>
